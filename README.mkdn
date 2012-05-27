@@ -1,3 +1,48 @@
+MiniCM
+===========
+
+MiniCM (http://code.google.com/p/minicm/) is a fork of the CyanogenMod project that provides support for the SEMC msm7x27 devices.
+These devices are: X8/W8, X10mini, X10minipro
+All patches are welcome!
+
+Getting Started
+---------------
+
+To get started with MiniCM, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the MiniCM trees, use a command like this:
+
+    repo init -u git://github.com/MiniCM/android.git -b gingerbread
+
+Then to sync up:
+
+    repo sync
+
+Building MiniCM (Quick start)
+------------------
+
+    . build/envsetup.sh
+    
+    lunch cyanogen_<device>-eng
+    
+    brunch cyanogen_<device>-eng
+
+Where device is one of:
+shakira (X8/W8)
+robyn (X10mini)
+mimmi (X10minipro)
+
+Please see also [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
+
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.cyanogenmod.com/index.php/Github_Organization)
+
+Reference threads:
+http://forum.xda-developers.com/showthread.php?t=1068553
+http://forum.xda-developers.com/showthread.php?t=1415026
+http://forum.xda-developers.com/showthread.php?t=1362585
+
 CyanogenMod
 ===========
 
@@ -22,29 +67,3 @@ Commit your patches in a single commit. Squash multiple commit using this comman
 
 To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.com/)
 
-
-Getting Started
----------------
-
-To get started with Android/CyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
-
-To initialize your local repository using the CyanogenMod trees, use a command like this:
-
-    repo init -u git://github.com/CyanogenMod/android.git -b gingerbread
-
-Then to sync up:
-
-    repo sync
-
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.com/index.php/Github_Organization)
-
-Buildbot
---------
-
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [buildbot.teamdouche.net](http://buildbot.teamdouche.net/)
