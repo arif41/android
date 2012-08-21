@@ -30,6 +30,10 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="device/semc/mimmi" name="MiniCM/android_device_semc_mimmi" />
+  <project path="device/semc/msm7x27-common" name="MiniCM/android_device_semc_msm7x27-common" />
+  <project path="device/semc/robyn" name="MiniCM/android_device_semc_robyn" />
+  <project path="device/semc/shakira" name="MiniCM/android_device_semc_shakira" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
