@@ -1,23 +1,21 @@
-MiniCM
-===========
+GingerDX
 
-MiniCM (http://code.google.com/p/minicm/) is a fork of the CyanogenMod project that provides support for the SEMC msm7x27 devices.
-These devices are: X8/W8, X10mini, X10minipro
+GingerDX is a lightweight feature-packed Gingerbread unoficial ROM, brought to you by eagleeyetom, djnilse and our contributors: AChep and Xmaster8. 
 All patches are welcome!
 
 Getting Started
 ---------------
 
-To get started with MiniCM, you'll need to get
+To get started with GingerDX, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the MiniCM trees, use a command like this:
 
-    repo init -u git://github.com/MiniCM/android.git -b gingerbread
+    repo init -u git://github.com/TeamFun/android.git -b gingerbread
 
 Then to sync up:
 
-    repo sync
+    repo sync -j16
 
 Building MiniCM (Quick start)
 ------------------
@@ -38,10 +36,6 @@ Please see also [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building in
 For more information on this Github Organization and how it is structured, 
 please [read the wiki article](http://wiki.cyanogenmod.com/index.php/Github_Organization)
 
-Reference threads:
-http://forum.xda-developers.com/showthread.php?t=1068553
-http://forum.xda-developers.com/showthread.php?t=1415026
-http://forum.xda-developers.com/showthread.php?t=1362585
 
 CyanogenMod
 ===========
