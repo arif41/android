@@ -21,6 +21,7 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
+  <project path="device/samsung/cooper" name="TeamFun/android_device_samsung_cooper" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/semc/mimmi" name="TeamFun/android_device_semc_mimmi" />
   <project path="device/semc/msm7x27-common" name="TeamFun/android_device_semc_msm7x27-common" />
