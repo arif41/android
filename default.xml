@@ -28,6 +28,7 @@
   <project path="device/semc/robyn" name="TeamFun/android_device_semc_robyn" />
   <project path="device/semc/shakira" name="TeamFun/android_device_semc_shakira" />
   <project path="device/htc/hero" name="TeamFun/android_device_htc_hero" />
+  <project path="device/lge/p500" name="TeamFun/android_device_lge_p500" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
