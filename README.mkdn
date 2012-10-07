@@ -1,8 +1,7 @@
-MiniCM
+IScreamDX
 ===========
 
-MiniCM (http://code.google.com/p/minicm/) is a fork of the CyanogenMod project that provides support for the SEMC msm7x27 devices.
-These devices are: X8/W8, X10mini, X10minipro
+MiniCM (http://code.google.com/p/gingerdx) is a fork of the CyanogenMod project that provides support for the X8.
 
 All patches are welcome!
 
@@ -11,30 +10,24 @@ Please use github or email minicmrom@gmail.com for any patches you want to conti
 Getting Started
 ---------------
 
-To get started with MiniCM, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the MiniCM trees, use a command like this:
 
-    repo init -u git://github.com/MiniCM/android.git -b ics
+    repo init -u git://github.com/TeamFun/android.git -b ics
 
 Then to sync up:
 
     repo sync
 
-Building MiniCM (Quick start)
+Building ISDX (Quick start)
 ------------------
 
     . build/envsetup.sh
 
-    lunch cm_<device>-eng
+    lunch cm_shakira-eng
 
-    brunch cm_<device>-eng
+    brunch cm_shakira-eng
 
-Where device is one of:
-shakira (X8/W8)
-robyn (X10mini)
-mimmi (X10minipro)
 
 CyanogenMod
 ===========
