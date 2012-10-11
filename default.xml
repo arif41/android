@@ -21,12 +21,15 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
+  <project path="device/gingerdx-common" name="TeamFun/android_device_gingerdx-common" />
+  <project path="device/samsung/cooper" name="TeamFun/android_device_samsung_cooper" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/semc/mimmi" name="TeamFun/android_device_semc_mimmi" />
   <project path="device/semc/msm7x27-common" name="TeamFun/android_device_semc_msm7x27-common" />
   <project path="device/semc/robyn" name="TeamFun/android_device_semc_robyn" />
   <project path="device/semc/shakira" name="TeamFun/android_device_semc_shakira" />
   <project path="device/htc/hero" name="TeamFun/android_device_htc_hero" />
+  <project path="device/lge/p500" name="TeamFun/android_device_lge_p500" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
