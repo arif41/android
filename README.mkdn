@@ -1,6 +1,6 @@
 GingerDX
 
-GingerDX is a lightweight feature-packed Gingerbread unoficial ROM, brought to you by eagleeyetom, djnilse and our contributors: AChep and Xmaster8. 
+GingerDX is a lightweight feature-packed Gingerbread unoficial ROM, brought to you by eagleeyetom, djnilse and AChep.
 All patches are welcome!
 
 Getting Started
@@ -9,7 +9,7 @@ Getting Started
 To get started with GingerDX, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the MiniCM trees, use a command like this:
+To initialize your local repository using the modified MiniCM trees, use a command like this:
 
     repo init -u git://github.com/TeamFun/android.git -b gingerbread
 
@@ -17,7 +17,7 @@ Then to sync up:
 
     repo sync -j16
 
-Building MiniCM (Quick start)
+Building GingerDX (Quick start)
 ------------------
 
     . build/envsetup.sh
