@@ -5,7 +5,6 @@ MiniCM (http://code.google.com/p/gingerdx) is a fork of the CyanogenMod project 
 
 All patches are welcome!
 
-Please use github or email minicmrom@gmail.com for any patches you want to contibute.
 
 Getting Started
 ---------------
