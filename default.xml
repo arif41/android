@@ -31,6 +31,7 @@
   <project path="device/htc/hero" name="TeamFun/android_device_htc_hero" />
   <project path="device/lge/p500" name="TeamFun/android_device_lge_p500" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" />
+  <project path="device/motorola/sunfire" name="TeamFun/android_device_motorola_sunfire" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
@@ -216,6 +217,7 @@
   <project path="vendor/cyanogen" name="TeamFun/android_vendor_cyanogen" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/semc" name="TeamFun/android_vendor_semc" />
+  <project path="vendor/motorola/sunfire" name="TeamFun/android_vendor_motorola_sunfire" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
