@@ -1,7 +1,7 @@
 IScreamDX
 ===========
 
-MiniCM (http://code.google.com/p/gingerdx) is a fork of the CyanogenMod project that provides support for the X8.
+ISCreamDX (http://code.google.com/p/gingerdx) is a fork of the CyanogenMod project that provides support for the X8.
 
 All patches are welcome!
 
