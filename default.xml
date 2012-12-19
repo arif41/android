@@ -14,30 +14,16 @@
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="CyanogenMod/android_bionic" />
+  <project path="bionic" name="TeamFun/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" />
-  <project path="development" name="CyanogenMod/android_development" />
+  <project path="dalvik" name="TeamFun/android_dalvik" />
+  <project path="development" name="TeamFun/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
+  <project path="device" name="TeamFun/android_device" />
   <project path="device/gingerdx-common" name="TeamFun/android_device_gingerdx-common" />
-  <project path="device/samsung/cooper" name="TeamFun/android_device_samsung_cooper" />
-  <project path="device/samsung/apollo" name="TeamFun/android_device_samsung_apollo" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
-  <project path="device/semc/shakira" name="TeamFun/android_device_semc_shakira" />
-  <project path="device/semc/mimmi" name="TeamFun/android_device_semc_mimmi" />
-  <project path="device/semc/msm7x27-common" name="TeamFun/android_device_semc_msm7x27-common" />
-  <project path="device/semc/robyn" name="TeamFun/android_device_semc_robyn" />
-  <project path="device/semc/smultron" name="TeamFun/android_device_semc_smultron" />
-  <project path="device/semc/mango" name="TeamFun/android_device_semc_mango" />
-  <project path="device/semc/satsuma" name="TeamFun/android_device_semc_satsuma" />
-  <project path="device/semc/coconut" name="TeamFun/android_device_semc_coconut" />
-  <project path="device/semc/msm7x30-common" name="TeamFun/android_device_semc_msm7x30-common" />
-  <project path="device/htc/hero" name="TeamFun/android_device_htc_hero" />
-  <project path="device/lge/p500" name="TeamFun/android_device_lge_p500" />
-  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" />
-  <project path="device/motorola/sunfire" name="TeamFun/android_device_motorola_sunfire" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
@@ -175,6 +161,7 @@
   <project path="packages/apps/CMWimaxSettings" name="CyanogenMod/android_packages_apps_CMWimaxSettings" />
   <project path="packages/apps/Contacts" name="TeamFun/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="TeamFun/android_packages_apps_DeskClock" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/DockAudio" name="CyanogenMod/android_packages_apps_DockAudio" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" />
   <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" />
