@@ -1,3 +1,42 @@
+GingerDX
+
+GingerDX is a lightweight feature-packed Gingerbread unoficial ROM, brought to you by eagleeyetom, djnilse and AChep.
+All patches are welcome!
+
+Getting Started
+---------------
+
+To get started with GingerDX, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the modified MiniCM trees, use a command like this:
+
+    repo init -u git://github.com/TeamFun/android.git -b gingerbread
+
+Then to sync up:
+
+    repo sync -j16
+
+Building GingerDX (Quick start)
+------------------
+
+    . build/envsetup.sh
+    
+    lunch cyanogen_<device>-eng
+    
+    brunch cyanogen_<device>-eng
+
+Where device is one of:
+shakira (X8/W8)
+robyn (X10mini)
+mimmi (X10minipro)
+
+Please see also [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
+
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.cyanogenmod.com/index.php/Github_Organization)
+
+
 CyanogenMod
 ===========
 
@@ -21,30 +60,3 @@ Make your changes and commit with a detailed message, starting with what you are
 Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
 To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.org/)
-
-
-Getting Started
----------------
-
-To get started with Android/CyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
-
-To initialize your local repository using the CyanogenMod trees, use a command like this:
-
-    repo init -u git://github.com/CyanogenMod/android.git -b gingerbread
-
-Then to sync up:
-
-    repo sync
-
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/index.php/Github_Organization)
-
-Buildbot
---------
-
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [buildbot.teamdouche.net](http://buildbot.teamdouche.net/)
