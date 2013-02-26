@@ -14,7 +14,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="TeamFun/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="TeamFun/android_bionic" />
